@@ -1,35 +1,41 @@
-# Phishing Email Detector using Machine Learning
+# 🔒 Phishing Email Detection System – Machine Learning Model for Email Security
 
 ## Overview
-The Phishing Email Detector is a machine learning based cybersecurity project that identifies whether an email is phishing or legitimate. Phishing emails are commonly used by attackers to trick users into revealing sensitive information such as passwords, banking details, or personal data. This project analyzes the text content of an email and predicts whether it is a phishing attempt using a trained machine learning model.
+The Phishing Email Detection System is a machine learning based cybersecurity project that identifies whether an email is phishing or legitimate. Phishing attacks are commonly used by attackers to trick users into revealing sensitive information such as passwords, banking details, or personal data. This project analyzes the text content of emails and predicts whether the email is safe or a phishing attempt using trained machine learning models.
 
-## Features
-- Detects phishing emails automatically
-- Accepts user email text as input
-- Classifies emails as phishing or legitimate
-- Uses a dataset from Kaggle for training
-- Demonstrates the use of machine learning in cybersecurity
+## Dataset Information
+- Source: Kaggle – Phishing Email Detection Dataset  
+- Size: Approximately 18,000+ emails  
+- Classes:
+  - 0 – Safe Email
+  - 1 – Phishing Email
+- Feature Used: Email text body content
+
+## Machine Learning Models Used
+This project tests multiple machine learning algorithms to compare their performance in detecting phishing emails:
+- Logistic Regression
+- Random Forest
+- Support Vector Machine (SVM)
+- Naive Bayes
+- XGBoost
 
 ## Technologies Used
 - Python
-- Machine Learning
 - Pandas
 - NumPy
 - Scikit-learn
+- XGBoost
+- Natural Language Processing (NLP)
 - Jupyter Notebook / Google Colab
 
-## How It Works
-1. The phishing email dataset is loaded from Kaggle.
-2. Email text data is cleaned and preprocessed.
-3. The text is converted into numerical features for the machine learning model.
-4. The model is trained on labeled phishing and legitimate emails.
-5. The user can enter an email message.
-6. The system predicts whether the email is phishing or legitimate.
-
-## Dataset
-This project uses a phishing email dataset obtained from Kaggle. The dataset contains labeled emails categorized into two classes:
-- Phishing
-- Legitimate
+## Project Workflow
+1. Load the phishing email dataset.
+2. Clean and preprocess the email text data.
+3. Convert text data into numerical features using NLP techniques.
+4. Train multiple machine learning models on the dataset.
+5. Evaluate the model performance.
+6. Accept user email text input.
+7. Predict whether the email is phishing or safe.
 
 ## Usage
 1. Open the notebook in Google Colab or Jupyter Notebook.
@@ -38,15 +44,14 @@ This project uses a phishing email dataset obtained from Kaggle. The dataset con
 4. The system will classify the email as phishing or legitimate.
 
 ## Example
-
-Input:
+Input Email:
 Your bank account has been suspended. Click the link below to verify your account immediately.
 
 Output:
 Phishing Email Detected
 
 ## Project Structure
-Phishing-Email-Detector-using-Machine-Learning  
+Phishing-Email-Detection-System  
 │  
 ├── Phishing_Email_Detection.ipynb  
 └── README.md  
@@ -54,8 +59,8 @@ Phishing-Email-Detector-using-Machine-Learning
 ## Applications
 - Email phishing detection systems
 - Spam filtering tools
-- Cybersecurity research projects
-- Security awareness demonstrations
+- Cybersecurity learning projects
+- Security awareness tools
 
 ## Author
 Kunal Ambulkar  
