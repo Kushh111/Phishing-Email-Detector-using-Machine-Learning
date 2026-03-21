@@ -60,7 +60,7 @@ Phishing-Email-Detection-System
 - Email phishing detection systems
 - Spam filtering tools
 - Cybersecurity learning projects
-- Security awareness tools
+- Security awareness tools.
 
 ## Author
 Kunal Ambulkar  
